@@ -1,0 +1,43 @@
+# Test files
+**/__tests__/**
+**/*.test.ts
+**/*.test.tsx
+**/*.test.js
+**/*.test.jsx
+**/*.spec.ts
+**/*.spec.tsx
+**/*.spec.js
+**/*.spec.jsx
+
+# Mock files
+**/__mocks__/**
+
+# Documentation
+docs/**
+*.md
+README*
+
+# Scripts
+scripts/**
+
+# Development files
+.vscode/**
+.idea/**
+*.log
+.DS_Store
+
+# Git files
+.git/**
+.gitignore
+
+# Node modules (handled by EAS)
+node_modules/**
+
+# Build artifacts
+build/**
+dist/**
+.expo/**
+
+# Temporary files
+tmp/**
+temp/**

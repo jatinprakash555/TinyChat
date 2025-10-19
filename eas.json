@@ -48,6 +48,19 @@
         "disabled": true
       },
       "prebuildCommand": "rm -rf node_modules && npm install"
+    },
+    "minimal": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "cache": {
+        "disabled": true
+      },
+      "env": {
+        "NODE_ENV": "production",
+        "EXPO_SKIP_MANIFEST_VALIDATION_TSCONFIG_PATHS": "1"
+      }
     }
   },
   "submit": {
