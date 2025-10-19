@@ -34,6 +34,11 @@
       "eas": {
         "projectId": "7f6fdc90-078f-4a02-a416-ec2b1d935be8"
       }
+    },
+    "metro": {
+      "resolver": {
+        "assetExts": ["bin", "txt", "jpg", "png", "json", "mp4", "ttf", "otf", "woff", "woff2"]
+      }
     }
   },
   "name": "TinyChat",

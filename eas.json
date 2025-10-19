@@ -36,7 +36,18 @@
       },
       "cache": {
         "disabled": true
-      }
+      },
+      "prebuildCommand": "npm run clean-build"
+    },
+    "clean": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "cache": {
+        "disabled": true
+      },
+      "prebuildCommand": "rm -rf node_modules && npm install"
     }
   },
   "submit": {
